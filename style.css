@@ -156,3 +156,14 @@ textarea:focus {
     font-size: 13px;
     margin-top: 5px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-card,
+    .right-card {
+        width: 100%;
+    }
+}
