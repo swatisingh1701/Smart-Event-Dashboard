@@ -101,7 +101,7 @@ textarea:focus {
 .sample-btn {
     padding: 6px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     color: white;
     cursor: pointer;
     margin-right: 5px;
@@ -121,6 +121,10 @@ textarea:focus {
     border-radius: 8px;
     margin-bottom: 10px;
     border: 1px solid #eee;
+    display: inline-block;
+    width: 48%;
+    margin: 10px 1%;
+    vertical-align: top;
 }
 
 .event-title {
