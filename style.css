@@ -44,3 +44,115 @@ header h1 {
     width: 65%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #5563c1;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+.clear-btn,
+.sample-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.clear-btn {
+    background-color: #e74c3c;
+}
+
+.sample-btn {
+    background-color: #27ae60;
+}
+
+.event-card {
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+.event-title {
+    font-weight: bold;
+}
+
+.event-date {
+    font-size: 13px;
+    color: #666;
+}
+
+.event-category {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.event-description {
+    font-size: 14px;
+}
+
+.no-events {
+    color: #ddd;
+    font-style: italic;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
